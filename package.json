@@ -17,6 +17,7 @@
     "npm-run-all": "^1.2.12",
     "proxyquire": "^1.7.3",
     "semantic-release": "^4.3.5",
+    "simple-mock": "^0.5.0",
     "tape": "^4.2.2",
     "watch": "^0.16.0"
   },
