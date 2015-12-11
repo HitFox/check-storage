@@ -11,9 +11,9 @@ import { storage } from 'check-storage';
 
 console.log(storage.type);
 try {
-  console.log(storage.add(key, value));
-  console.log(storage.get(key));
-  console.log(storage.remove(key));
+  storage.add(key, value);
+  storage.get(key);
+  storage.remove(key);
 } catch {
   console.log('storage not initialised. Maybe the env has neither API?')
 }
